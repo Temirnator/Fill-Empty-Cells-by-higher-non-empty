@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+
+<p>Dear <?= tutor.fullname ?>,</p>
+
+<p>Don't forget to fill your Weekly Report into your Personal Notion Page.<br>
+<b>Deadline: 23:59 Sunday of this week.</b><br>
+Fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSflnR4Hyx_G7i4jyKrvb0YW3Mu4zau-OHeiKCMvLDJo59HWQg/viewform?usp=sf_link">this survey</a></b>.</p>
+
+<p>Instructions (see <a href ="https://www.notion.so/temirnator/Tutor-Instructions-1e2f966e61b847869558b01c44f2384a#561576aa080c4133bf7c70b51096522c"> "Step 6: Filling Lesson Reports (Notion page)"</a>).</p>
+
+1) Go to  <a href= <?= tutor.notionPage ?> > your Notion Page</a>.
+<br>2) Fill "Lesson Reports" (write one line of text, indicating lesson name<span style="color:red;">*</span>, date, subject, topics, homework).
+<br>3) Fill out <b><a href="https://docs.google.com/forms/d/e/1FAIpQLSflnR4Hyx_G7i4jyKrvb0YW3Mu4zau-OHeiKCMvLDJo59HWQg/viewform?usp=sf_link">this survey</a></b> (the same as above) to confirm that you conducted a lesson or indicate a reason why you didn't in the same survey.
+<br>
+<p style="color:red;">*write 
+<br>"<b>Lesson</b>" and a number of the lesson, if you conducted a lesson;
+<br>"<b>Cancelled</b>", if the lesson was cancelled;
+<br>"<b>Postponed</b>", if the lesson was postponed.
+</p>
+Useful links: 
+<br>1) <a href= <?= tutor.notionPage ?> >Your notion page link; </a>
+<br>2) <a href= <?= tutor.instructions ?> >Tutor Instructions; </a>
+<br>3) <a href= <?= tutor.telegramchat ?> >Telegram group chat (announcements);</a>
+<br>--
+<br>Kind regards, <?= tutor.personname ?>.
+<br>                                                               
+<br><?= tutor.personposition ?> of IHelper Project,
+<br>NU Red Crescent Society,
+<br>AOE "Nazarbayev University"
+<br>53, Kabanbay batyr ave.,
+<br>Astana, Republic of Kazakhstan
+<br>010000.
+<br>Email: <?= tutor.personemail ?>
+<br>
+
+  </body>
+</html>
