@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+
+<p>Dear <?= tutor.fullname ?> ,</p>
+
+<p>Hope you are doing well.</p>
+
+<p>My name is <?= tutor.personname ?>. For these 3 months I will be your Personal Coordinator.<br>
+If you have any questions, I am the first person you should contact.<br>
+Here is my phone number: <?= tutor.personephone ?>.</p>
+
+You have officially became a part of the IHelper project and we are assigning the following child to be your student:
+<br>
+<br>1) Full name: <?= tutor.kidname ?>
+<br>2) Language: <?= tutor.kidlang ?>
+<br>3) Grade: <?= tutor.kidgrade ?>
+<br>4) Comments: <?= tutor.kidspecialty ?>
+<br>5) Parent's full name: <?= tutor.parentname ?>
+<br>6) Parent's phone: <?= tutor.parentphone ?>
+<br>
+<br>To do:
+<br>1) Notify kid's parent(-s) that you will be tutoring their child;
+<br>2) Agree on a learning and communication platform and provide technical support if needed (Zoom/Skype/Meet/Teams, Telegram/Whatsapp); 
+<br>3) Agree on a lesson schedule (standard time - weekends, but you are free to choose another day(-s));
+<br>4) Fill out <a href= "https://docs.google.com/forms/d/e/1FAIpQLSf6fvr8IwNC3oHZvefQbfxQDJKXiFsAWmo16J_mBp-r2dAPzg/viewform?usp=sf_link">this form</a> indicating whether you agree to teach the child and the date when you are ready to start teaching;
+<br>
+<br>Important dates:
+<br>1) First meeting - until 26th September (including)
+<br>2) First lesson - until 3rd October (including)
+<br>3) Weekly report - every week for 3 months
+<br>4) Test 1 - until 3rd October (including)
+<br>5) Test 2 - until 14th November (including)
+<br>6) Test 3 - until 12th December (including)
+<br>7) End of period - 12th December
+<br>
+<br>If you have any questions don't hesitate to contact me.
+<br>
+<br>Useful links: 
+<br>1) <a href= <?= tutor.notionPage ?> >Your notion page link; </a>
+<br>2) <a href= <?= tutor.instructions ?> >Tutor Instructions; </a>
+<br>3) <a href= <?= tutor.telegramchat ?> >Telegram group chat (announcements);</a>
+<br>--
+<br>Kind regards, <?= tutor.personname ?>.
+<br>                                                               
+<br><?= tutor.personposition ?> of IHelper Project,
+<br>NU Red Crescent Society,
+<br>AOE "Nazarbayev University"
+<br>53, Kabanbay batyr ave.,
+<br>Astana, Republic of Kazakhstan
+<br>010000.
+<br>Email: <?= tutor.personemail ?>
+<br>
+
+  </body>
+</html>
