@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+<p style="color:red;"><i>*read <b>a shortened version</b> of this email at the bottom.</i></p>
+
+
+<p>Dear <?= tutor.fullname ?> ,</p>
+
+<p>Welcome to the IHelper Project! We are so excited for you to join us. Your willingness to help other people and open-heartedness make you the perfect fit for the <b>tutoring position.</b></p>
+
+<p><b>I am <?= tutor.personname ?>,</b> and I will be <b>your <?= tutor.personposition ?>.</b> Feel free to reach out to me with <b>any questions during the onboarding process.</b></p>
+
+<p>As you may know, IHelper is an educational project that aims to raise the quality of education of children from SVC and raise the awareness of NU students about the importance and responsibilities regarding education and social problems. It aims to connect the children who want to get better knowledge and those students who dare to help them in that way and share their own knowledge.</p>
+
+<p>We, as an organizational team and the team of tutors, need to help them to meet their goals and control the process of that education by developing this socially valuable project. I expect from you a huge amount of responsibility and readiness to dedicate your time to our children. I think working in that way will help to increase your time management skills, communication abilities and just be able to make our world a little better.</p>
+
+<p>Regarding the format of lessons, for the next 3 months you have to conduct 2 hours of lessons per week, either once in a week for 2 hours or two times for 1 hour. Each time, after the lesson you will have to fill the report about your lessons in your personal Notion page. Moreover, to keep track of how well lessons are going you need to assess the knowledge of your student by conducting tests 3 times in total. Test reports also have to be recorded in your Notion Page. At the moment, our team is in the process of preparing teaching materials for our tutors, and we are not done yet (wait for email updates soon). So, if you need books or other teaching materials we suggest you ask them from your student's parents or directly from the student. Finally, regarding lesson plans, they are optional but we suggest you have one so that you don't need to think about what to teach each time before the lesson.</p>
+
+<p>Some advices for teaching SVC students. As you may know, the term SVC refers to the Socially Vulnerable Category of people. That means that our kids may have specialties (not necessarily learning disabilities) or they come from large families or families with special children or families with low income. That is why, we ask you to be extremely cautious with your words (even more cautious than with other kids), that is, don't be angry, don't be angry, don't be angry (3 times repeated intentionally). Furthermore, be patient with your kid (no need to rush through the subjects, just make sure he/she understands you well, even if you are going slow), make your lessons more visual (more pictures, dynamic explanations, demonstrations), follow the technique "I do, We do, You do" (that is, firstly show how to do the problem yourself, then do it together with your kid, and only then ask him/her to do it him/herself). Finally, if you can't conduct a lesson at a certain time (we understand you, we are also students) make sure to notify the child in advance and indicate it in your Notion Page (instead of Lesson, just write Cancelled or Postponed), and, if you would be that kind, make sure to conduct a lesson at a different time (seriously, don't make a child upset for no reason).</p>
+
+<p>Finally, be supportive and caring, and make sure to be in good relationships with your kid, his/her parents, your coordinator, and stay updated with the messages from me.</p>
+
+<p style="color:red;">-----SHORTLY-----</p>
+Congrats!
+<br>I am your <?= tutor.personposition ?>, <?= tutor.personname ?>.
+<br>IHelper Project is about teaching SVC kids.
+<br>Be responsible.
+<br>
+<br>Format:
+<br>1) Total period: 3 months;
+<br>2) Lessons: 2hrs per week + Notion Report (1 line of text);
+<br>3) Tests: 3 tests (beginning, middle, end) + Notion Report (1 line of text);
+<br>4) Lesson Plans: Optional but suggested;
+<br>5) Teaching materials: Ask from kid's parents, from kid, from coordinator, from main coordinator, from google.
+<br>
+<br>Advices on teaching SVC kids:
+<br>1) Be even more cautious with your words than with other kids (don't hurt them);
+<br>2) Don't be angry (x 3);
+<br>3) Be patient (it can be slow and that's ok);
+<br>4) "I, We, You" teachnique (search google);
+<br>5) Notify the kid in advance about lesson postponements or late lessons;
+<br>6) Be supportive and caring;
+<br>7) Stay in touch with parents and your coordinator, stay updated with emails from me.
+<p style="color:red;">-----End of SHORTLY-----</p>
+<br>
+<br>IMPORTANT INFO: 
+<br>1) <a href= <?= tutor.notionPage ?> >Your notion page link; </a>
+<br>2) <a href= <?= tutor.instructions ?> >Tutor Instructions; </a>
+<br>3) <a href= <?= tutor.telegramchat ?> >Telegram group chat (announcements);</a>
+<br>4) Important Contacts:
+<br>   -Your Coordinator:
+<br>      <?= tutor.coord ?> , <?= tutor.coordnum ?>, <?= tutor.coordemail ?>
+<br>   -Main Coordinator: 
+<br>      <?= tutor.maincoord ?> , <?= tutor.maincoordnum ?>, <?= tutor.maincoordemail ?>
+<br>--
+<br>Kind regards, <?= tutor.personname ?>.
+<br>                                                               
+<br><?= tutor.personposition ?> of IHelper Project,
+<br>NU Red Crescent Society,
+<br>AOE "Nazarbayev University"
+<br>53, Kabanbay batyr ave.,
+<br>Astana, Republic of Kazakhstan
+<br>010000.
+<br>Email: <?= tutor.personemail ?>
+<br>
+
+  </body>
+</html>
